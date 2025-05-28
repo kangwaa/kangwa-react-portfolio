@@ -16,28 +16,28 @@ function Timeline() {
           {/* Google */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2024 – Present"
+            date="2025 – Present"
             iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Engineering Analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">Google, Dublin, Ireland</h4>
             <p>
-              Working on fraud and spam detection in the Ads ecosystem, leveraging machine learning and large-scale data analysis to secure Trust & Safety systems.
+            Fighting AdSpam with data analytics and machine learning!
             </p>
           </VerticalTimelineElement>
 
           {/* Meta */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 – 2024"
+            date="2021 – 2025"
             iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analytics Specialist</h3>
+            <h3 className="vertical-timeline-element-title">Global Operations Specialist</h3>
             <h4 className="vertical-timeline-element-subtitle">Meta (Facebook), Dublin, Ireland</h4>
             <p>
-              Led cross-functional teams to counter phishing attacks, optimized anti-abuse models, and expanded multilingual risk detection infrastructure across global markets.
+             Business anaytics to detect and mitigate risks in integrity products, workflows, and policies and improve detection systems.
             </p>
           </VerticalTimelineElement>
 
@@ -51,7 +51,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Data & Analytics Associate</h3>
             <h4 className="vertical-timeline-element-subtitle">PwC, Lusaka, Zambia</h4>
             <p>
-              Developed audit automation tools, enhanced revenue tracking through PowerBI, and identified procurement policy violations using data-driven insights.
+              Developing data analytics solutions for Tax , Finance , Marketing and Audit functions.
             </p>
           </VerticalTimelineElement>
 
@@ -62,10 +62,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Innovation & Analytics Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">BongoHive Innovation & Technology Hub, Lusaka</h4>
+            <h3 className="vertical-timeline-element-title">Business Intelligence Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">BongoHive Innovation & Technology Hub, Lusaka, Zambia</h4>
             <p>
-              Supported startup ecosystem research, developed internal dashboards, and contributed to tech-driven project planning and reporting.
+              Business reporting and analytics.
             </p>
           </VerticalTimelineElement>
 

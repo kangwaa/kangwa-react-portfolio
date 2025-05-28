@@ -16,25 +16,19 @@ const analyticsStack = [
 ];
 
 const mlStack = [
-  "scikit-learn",
+  "Scikit-learn",
   "Hugging Face",
-  "LangChain",
-  "OpenAI",
+  "Pytorch",
+  "TensorFlow",
   "FastText",
-  "Qdrant",
-  "LlamaIndex",
-  "Streamlit"
+  "Git"
 ];
 
 const trustStack = [
-  "Presto SQL",
-  "GitHub Actions",
-  "Docker",
-  "AWS",
-  "Risk Modeling",
-  "Security Analytics",
-  "Clustering",
-  "Snowflake",
+  "Risk Analytics",
+  "Technical Program Management ",
+  "Machine Learning",
+  "Data Mining"
 ];
 
 function Expertise() {
@@ -47,9 +41,9 @@ function Expertise() {
           {/* Section 1: Data Analytics */}
           <div className="skill">
             <FontAwesomeIcon icon={faChartLine} size="3x" />
-            <h3>Data Analytics </h3>
+            <h3>Data & Business Analytics </h3>
             <p>
-              I specialize in transforming raw data into meaningful insights using modern analytics tools and programming languages. From building robust BI dashboards to crafting efficient data pipelines, my work helps teams make smarter decisions. I have led data projects across compliance, risk, and finance domains in both corporate and public sector environments.
+            I use data analytics to solve complex business problems, inform strategic decisions, and strengthen AI and ML systems. My work spans identifying risks, uncovering inefficiencies, and delivering actionable insights that guide cross-functional teams.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -64,7 +58,7 @@ function Expertise() {
             <FontAwesomeIcon icon={faBrain} size="3x" />
             <h3>Machine Learning & AI</h3>
             <p>
-              I design and deploy ML-powered systems, ranging from classification models and MAB optimization to multilingual word embeddings and GenAI applications. I bring strong experience in NLP, clustering, and vector search, with a growing interest in secure, adversarially-robust AI systems.
+            My expertise spans traditional ML techniques including classification, clustering, and regression - alongside experimental design, deep learning, network science, NLP, and generative AI. I focus on developing research-informed solutions that balance performance, robustness, and real-world applicability.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -79,7 +73,7 @@ function Expertise() {
             <FontAwesomeIcon icon={faShieldAlt} size="3x" />
             <h3>Trust & Safety + Security Analytics</h3>
             <p>
-              My work in Trust & Safety focuses on identifying and mitigating risks in real-time. I’ve led large-scale anti-phishing interventions, fraud detection using clustering, and global enforcement tooling at Meta and Google. I pair analytics with security-minded infrastructure to scale interventions, detect adversarial behavior, and protect digital ecosystems.
+            I work at the intersection of data analytics, machine learning, and threat detection - focusing on spam, fraud, cybersecurity, and emerging adversarial threats. My expertise spans adversarial pattern research, machine learning , model development and evaluation, technical program management, data mining, and cross-functional collaboration to ensure user safety and platform integrity.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
