@@ -40,7 +40,7 @@ function Project() {
           <h2>Coming Soon</h2>
           <p>
           This project simulates the Newsvendor inventory model using Monte Carlo methods to help a local deli optimize daily lasagna orders under uncertain demand. It models good, typical, and bad days, factoring in overage and underage costs to identify the profit-maximizing quantity. Built in Python and deployed with Streamlit for interactive parameter tuning, profit curves, and monthly forecasting.
-          <em style={{ color: 'red' }}> Please note that this repo is private due to academic policy Try the streamlit app in the button below or email me for repo access.</em>
+          <em style={{ color: 'red' }}> Please note that this repo is private due to academic policy, however try the streamlit app by clicking the button below or email me for repo access.</em>
           </p>
           <a href="https://delidilemma-montecarlo.streamlit.app/" className="button alt">Streamlit App</a>
         </div>
