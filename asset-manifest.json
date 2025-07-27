@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kangwa-react-portfolio/static/css/main.77a6b554.css",
-    "main.js": "/kangwa-react-portfolio/static/js/main.16a298a0.js",
+    "main.js": "/kangwa-react-portfolio/static/js/main.6c6ebff0.js",
     "static/js/453.4acc1a94.chunk.js": "/kangwa-react-portfolio/static/js/453.4acc1a94.chunk.js",
     "static/media/supermario.jpg": "/kangwa-react-portfolio/static/media/supermario.04faf2be64dcd83b2766.jpg",
     "static/media/bg-light.png": "/kangwa-react-portfolio/static/media/bg-light.bac0efb485244a522981.png",
@@ -14,11 +14,11 @@
     "static/media/spotifythumbnail.jpg": "/kangwa-react-portfolio/static/media/spotifythumbnail.5f19d09fe0d4081dbb42.jpg",
     "index.html": "/kangwa-react-portfolio/index.html",
     "main.77a6b554.css.map": "/kangwa-react-portfolio/static/css/main.77a6b554.css.map",
-    "main.16a298a0.js.map": "/kangwa-react-portfolio/static/js/main.16a298a0.js.map",
+    "main.6c6ebff0.js.map": "/kangwa-react-portfolio/static/js/main.6c6ebff0.js.map",
     "453.4acc1a94.chunk.js.map": "/kangwa-react-portfolio/static/js/453.4acc1a94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77a6b554.css",
-    "static/js/main.16a298a0.js"
+    "static/js/main.6c6ebff0.js"
   ]
 }
