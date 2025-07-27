@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kangwa-react-portfolio/static/css/main.77a6b554.css",
-    "main.js": "/kangwa-react-portfolio/static/js/main.127f79be.js",
-    "static/js/453.d99da365.chunk.js": "/kangwa-react-portfolio/static/js/453.d99da365.chunk.js",
+    "main.js": "/kangwa-react-portfolio/static/js/main.dd054c37.js",
+    "static/js/453.4acc1a94.chunk.js": "/kangwa-react-portfolio/static/js/453.4acc1a94.chunk.js",
     "static/media/supermario.jpg": "/kangwa-react-portfolio/static/media/supermario.04faf2be64dcd83b2766.jpg",
     "static/media/bg-light.png": "/kangwa-react-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/kangwa-react-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -11,13 +11,14 @@
     "static/media/airport_picture.jpg": "/kangwa-react-portfolio/static/media/airport_picture.5f1c6531999a59cea794.jpg",
     "static/media/shutterstock.jpg": "/kangwa-react-portfolio/static/media/shutterstock.f5fba8a48053a8ba76d2.jpg",
     "static/media/spotifythumbnail.jpg": "/kangwa-react-portfolio/static/media/spotifythumbnail.5f19d09fe0d4081dbb42.jpg",
+    "static/media/montecarlo.jpg": "/kangwa-react-portfolio/static/media/montecarlo.8c2e8a307d79720c5191.jpg",
     "index.html": "/kangwa-react-portfolio/index.html",
     "main.77a6b554.css.map": "/kangwa-react-portfolio/static/css/main.77a6b554.css.map",
-    "main.127f79be.js.map": "/kangwa-react-portfolio/static/js/main.127f79be.js.map",
-    "453.d99da365.chunk.js.map": "/kangwa-react-portfolio/static/js/453.d99da365.chunk.js.map"
+    "main.dd054c37.js.map": "/kangwa-react-portfolio/static/js/main.dd054c37.js.map",
+    "453.4acc1a94.chunk.js.map": "/kangwa-react-portfolio/static/js/453.4acc1a94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77a6b554.css",
-    "static/js/main.127f79be.js"
+    "static/js/main.dd054c37.js"
   ]
 }
