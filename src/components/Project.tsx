@@ -1,10 +1,10 @@
 import React from "react";
 import mock01 from '../assets/images/LeximapImage.jpg';
 import mock02 from '../assets/images/airport_picture.jpg';
-import mock03 from '../assets/images/shutterstock.jpg';
-import mock04 from '../assets/images/supermario.jpg';
-import mock05 from '../assets/images/spotifythumbnail.jpg';
-import mock06 from '../assets/images/placeholder.jpg'; // Optional: a "Coming Soon" image
+import mock03 from '../assets/images/montecarlo.jpg';
+import mock04 from '../assets/images/shutterstock.jpg';
+import mock05 from '../assets/images/supermario.jpg';
+import mock06 from '../assets/images/spotifythumbnail.jpg'; // Optional: a "Coming Soon" image
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -36,7 +36,18 @@ function Project() {
 
         {/* Project 3 */}
         <div className="project">
-          <img src={mock03} className="zoom" alt="Network Intrusion Classification" width="100%" />
+          <img src={mock03} className="zoom" alt="NewsVendor Model using Monte Carlo Simulation" width="100%" />
+          <h2>Coming Soon</h2>
+          <p>
+          This project simulates the Newsvendor inventory model using Monte Carlo methods to help a local deli optimize daily lasagna orders under uncertain demand. It models good, typical, and bad days, factoring in overage and underage costs to identify the profit-maximizing quantity. Built in Python and deployed with Streamlit for interactive parameter tuning, profit curves, and monthly forecasting.
+          <em style={{ color: 'red' }}> Please note that this repo is private due to academic policy Try the streamlit app in the button below or email me for repo access.</em>
+          </p>
+          <a href="https://delidilemma-montecarlo.streamlit.app/" className="button alt">Streamlit App</a>
+        </div>
+
+        {/* Project 4: */}
+        <div className="project">
+          <img src={mock04} className="zoom" alt="Network Intrusion Classification" width="100%" />
           <h2>Network Intrusion Classification</h2>
           <p>
           This project is a deep dive into machine learning concepts with a specific focus on cybersecurity. Using the UNSW-NB15 dataset, I address classification problems in network security by employing supervised learning techniques to model nine attack types and normal vectors. I make use of algorithms such as Principal Component Analysis (PCA) for dimensionality , Naive Bayes , K-Nearest Neighbour, Logistic Regression and Neural Network Classifiers to enhance my knowledge in cybersecurity and trust and safety.
@@ -44,9 +55,9 @@ function Project() {
           <a href="https://github.com/kangwaa/Network-Intrusion-Classification" target="_blank" rel="noreferrer" className="button alt">GitHub Repository</a>
         </div>
 
-        {/* Project 4 */}
+        {/* Project 5 */}
         <div className="project">
-          <img src={mock04} className="zoom" alt="K-Means Clustering for Image Compression" width="100%" />
+          <img src={mock05} className="zoom" alt="K-Means Clustering for Image Compression" width="100%" />
           <h2>K-Means Image Compression</h2>
           <p>
           This article is a hands-on exploration of image compression using the K-Means algorithm, coded from scratch. By applying K-Means to a Super Mario PNG image, the article demonstrates the process of image preprocessing and clustering, illustrating how this algorithm can be used to reduce the complexity of visual data while preserving essential features. This approach not only deepens one's understanding of K-Means but also highlights practical applications of machine learning techniques in handling image data.
@@ -54,9 +65,9 @@ function Project() {
           <a href="https://medium.com/@kangwangomalala/k-means-clustering-a-hands-on-image-compression-example-6cc99af9c8a7" target="_blank" rel="noreferrer" className="button alt">Medium Article</a>
         </div>
 
-        {/* Project 5 */}
+        {/* Project 6 */}
         <div className="project">
-          <img src={mock05} className="zoom" alt="Spotify Genre Clustering" width="100%" />
+          <img src={mock06} className="zoom" alt="Spotify Genre Clustering" width="100%" />
           <h2>Spotify Genre Clustering & Classification</h2>
           <p>
           In this project, I collaborated with two team members on predictive modeling of Spotify song genres, utilizing various clustering and classification techniques. We evaluated models such as GMM, DBScan, KMeans, Naive Bayes, Neural Networks, KNN, and Random Forests. The work involved data preprocessing, dimensionality reduction (PCA, LDA, UMAP), and a detailed performance analysis to gain insights into genre clustering and classification. <br />
@@ -65,15 +76,7 @@ function Project() {
           <a href="https://github.com/kangwaa/Genre-Music-Identification" className="button alt">GitHub Repository</a>
         </div>
 
-        {/* Project 6: Coming Soon */}
-        <div className="project">
-          <img src={mock06} className="zoom" alt="Coming Soon" width="100%" />
-          <h2>Coming Soon</h2>
-          <p>
-            I'm currently building something new — stay tuned for the next addition to this portfolio.
-          </p>
-          <a href="#" className="button alt">Coming Soon</a>
-        </div>
+
 
       </div>
     </div>
