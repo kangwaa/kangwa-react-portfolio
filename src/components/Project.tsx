@@ -20,6 +20,7 @@ function Project() {
           <h2>Agentic Capital Market Analyst</h2>
           <p>
           This project applies agentic AI and quantitative finance techniques to the problem of identifying high-momentum stocks and industries before they are priced in by the broader market. Inspired by the question of whether an algorithm could have surfaced Nvidia in 2019, the dashboard aggregates over 100 live headlines daily from Reuters, CNBC, Yahoo Finance, and MarketWatch — requiring no paid data APIs. A large language model analyses the news stream to extract emerging themes and score narrative momentum per industry, while a custom quantitative engine scores each stock across five financial dimensions: valuation, growth, financial health, analyst sentiment, and price positioning. The two signals are combined into a single conviction score that ranks stocks by opportunity. Built with Python, Streamlit, FastAPI, and Groq's free LLM tier, with market data sourced entirely from yfinance. This approach captures forward-looking narrative shifts that traditional financial screeners based on descriptive statistics alone would miss.
+          <br /><em style={{ color: 'red' }}>Disclaimer: For educational purposes only. Not financial advice.</em>
           </p>
           <a href="https://capital-markets-dashboard-2fymcv2jurdzqeg46tbfp5.streamlit.app/" target="_blank" rel="noopener noreferrer" className="button alt">Streamlit App</a>
         </div>
