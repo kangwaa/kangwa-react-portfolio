@@ -5,6 +5,7 @@ import mock03 from '../assets/images/montecarlo.jpg';
 import mock04 from '../assets/images/shutterstock.jpg';
 import mock05 from '../assets/images/supermario.jpg';
 import mock06 from '../assets/images/spotifythumbnail.jpg'; // Optional: a "Coming Soon" image
+import mock07 from '../assets/images/capitalmarketanalyst.jpg';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -12,6 +13,16 @@ function Project() {
     <div className="projects-container" id="projects">
       <h1>Personal Projects</h1>
       <div className="projects-grid">
+
+        {/* Project 7 */}
+        <div className="project">
+          <img src={mock07} className="zoom" alt="Agentic Capital Market Analyst" width="100%" />
+          <h2>Agentic Capital Market Analyst</h2>
+          <p>
+          This project applies agentic AI and quantitative finance techniques to the problem of identifying high-momentum stocks and industries before they are priced in by the broader market. Inspired by the question of whether an algorithm could have surfaced Nvidia in 2019, the dashboard aggregates over 100 live headlines daily from Reuters, CNBC, Yahoo Finance, and MarketWatch — requiring no paid data APIs. A large language model analyses the news stream to extract emerging themes and score narrative momentum per industry, while a custom quantitative engine scores each stock across five financial dimensions: valuation, growth, financial health, analyst sentiment, and price positioning. The two signals are combined into a single conviction score that ranks stocks by opportunity. Built with Python, Streamlit, FastAPI, and Groq's free LLM tier, with market data sourced entirely from yfinance. This approach captures forward-looking narrative shifts that traditional financial screeners based on descriptive statistics alone would miss.
+          </p>
+          <a href="https://capital-markets-dashboard-2fymcv2jurdzqeg46tbfp5.streamlit.app/" target="_blank" rel="noopener noreferrer" className="button alt">Streamlit App</a>
+        </div>
 
         {/* Project 1 */}
         <div className="project">
@@ -37,7 +48,7 @@ function Project() {
         {/* Project 3 */}
         <div className="project">
           <img src={mock03} className="zoom" alt="NewsVendor Model using Monte Carlo Simulation" width="100%" />
-          <h2>Coming Soon</h2>
+          <h2>Newsvendor Model using Monte Carlo Simulation</h2>
           <p>
           This project simulates the Newsvendor inventory model using Monte Carlo methods to help a local deli optimize daily lasagna orders under uncertain demand. It models good, typical, and bad days, factoring in overage and underage costs to identify the profit-maximizing quantity. Built in Python and deployed with Streamlit for interactive parameter tuning, profit curves, and monthly forecasting.
           <em style={{ color: 'red' }}> Please note that this repo is private due to academic policy, however try the streamlit app by clicking the button below or email me for repo access.</em>

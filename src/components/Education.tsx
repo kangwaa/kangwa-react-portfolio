@@ -38,7 +38,7 @@ function Education() {
             <h3 className="vertical-timeline-element-title">B.Eng. in Aeronautical Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">Nanjing University of Aeronautics and Astronautics, Nanjing,China</h4>
             <p>
-              Specialized in aircraft design, with foundational training in engineering principles, mathematics, and applied physics and computer aided design and engineering.
+              Specialized in aircraft design with foundational training in engineering principles, mathematics, applied physics and computer aided design and engineering.
             </p>
           </VerticalTimelineElement>
 
